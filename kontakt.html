@@ -20,7 +20,7 @@
         <h4>Hier können Sie uns Ihr Anliegen mitteilen</h4>
     </div>
     <div class="mb-3" style="padding: 2%;">
-        <form action="funktionen.js" id="formular" method="get">
+        <form action="funktionen.js" id="formular" method="post" onsubmit="return sendFormular(this,'Helene.Langolf@web.de',700,300)">
         <label for="exampleFormControlInput1" class="form-label" style="padding: 1%;">Ihr Name:</label>
         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vorname Name">
         <label for="exampleFormControlInput2" class="form-label" style="padding: 1%;">Ihr Anliegen:</label>
