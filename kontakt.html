@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt-Formular</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="funktionen.js">
+
+</head>
+<body class="kontakt">
+    <div class="kontakt-formular  bg-opacity-75 bg-dark text-light" style="border-radius: 20px;">
+    <div style="padding: 2%;">
+        <h2 >
+            Kontakt-Formular
+        </h2>
+        <h4>Hier können Sie uns Ihr Anliegen mitteilen</h4>
+    </div>
+    <div class="mb-3" style="padding: 2%;">
+        <form action="funktionen.js" id="formular" method="get">
+        <label for="exampleFormControlInput1" class="form-label" style="padding: 1%;">Ihr Name:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vorname Name">
+        <label for="exampleFormControlInput2" class="form-label" style="padding: 1%;">Ihr Anliegen:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Betreff">
+        <label for="exampleFormControlInput3" class="form-label" style="padding: 1%;">Ihre E-Mail Adresse:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Muster@muster.de">
+      </div>
+      <div class="mb-3" style="padding: 2%;">
+        <label for="exampleFormControlTextarea1" class="form-label" style="padding: 1%;">Ihre Nachricht an uns</label>
+         <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        <div style="padding: 3%; ">
+        <button class="btn btn-outline-danger" style="color: #bd87a4;" type="submit">Abschicken</button></form>
+        <a href="javascript:history.back()" class="btn btn-outline-secondary" type="submit">Zurück</a>
+    </div>
+      </div>
+    </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="legal-content2">
+        <p class="fw-bold text-light">(c)Weinparadies GmbH  |  <a href="impressum.html" style="color: white">Impressum</a>  |  <a href="" style="color: white">Datenschutz</a> </p> 
+    </div>
+</body>
+
+</html>

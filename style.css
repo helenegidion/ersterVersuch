@@ -1,0 +1,156 @@
+.hintergrund{ width: 100%;
+height: auto;}
+.titel{
+    color: rgb(156, 43, 66);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    font-size:900;
+    font-style: italic;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+body{
+    background: url("bilder/wine1.jpg") fixed;
+    background-size: cover;
+}
+
+.header{
+    
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.legal-content{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-size: medium;
+    font-style: italic;
+}
+.legal-content2{
+    
+    bottom: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-size: medium;
+    font-style: italic;
+}
+.kontakt-formular{
+    margin: 7% 20% 20% 20%;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+.kontakt{
+    background: url("bilder/wine1.jpg") fixed;
+    background-size: cover;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+}
+.info{
+    background: url("bilder/wine1.jpg") fixed;
+    background-size: cover;
+    
+}
+.infotext{
+    border-radius: 15px;
+    
+    font-family: 'Source Serif Pro', serif;
+    margin: 5% 20% 10% 20%;
+    
+}
+.infotext2{
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-family: 'Source Serif Pro', serif;
+    margin: 5% 20% 10% 20%;
+    
+}
+.fw-bold{
+    
+    margin: 0;
+}
+.text1{
+    margin: 5% 10% 10% 10%;
+}
+.text2{
+    margin: 5% 10% 10% 10%;
+}
+.text3{
+    margin: 5% 10% 10% 10%;
+    
+    text-align: center;
+}
+.ü1{
+   
+    
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #bd87a4;
+}
+
+.standort-bild{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.nav-link{
+    color: darkred;
+}
+/* Position */
+#nach_oben { position: fixed; bottom: -50px; margin-left: 43%; }
+
+/* Aussehen des Buttons */
+#nach_oben a {
+ width: auto;
+ height: 70px;
+ line-height: 50px;
+ padding: 0px 25px 0px 25px;
+ display: block;
+ text-decoration: none;
+ font-size: 12px;
+ color: #FFFFFF;
+ background-color: #ec7661;
+ border: 1px solid #c9c9c9;
+ border-radius: 15px;
+ transition: 1s; }
+
+/* Hover bei Mauskontakt */
+#nach_oben a:hover { color: #FFFFFF; background-color: #343434; }
+
+  #navbar-example2{
+    border-radius: 20px;
+    
+    
+    
+  }
+  .container-fluid{
+    box-shadow:#ec7661;
+    box-shadow: 5px;
+  }
+  
+  .wein{
+    background: url("bilder/wine1.jpg") fixed;
+    background-size: cover;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    
+  }
+  .nav-pills > li > a.active {
+    background-color: #bd87a4 !important;
+    color: #442323 !important;
+  }
+  
+  .nav-pills > li > a:hover {
+    color: #5a2f2f !important;
+  }
+  
+  .nav-link-color {
+    color: #5a2929;
+  }
