@@ -154,3 +154,11 @@ body{
   .nav-link-color {
     color: #5a2929;
   }
+.warenkorb{
+        background: url("bilder/wine1.jpg") fixed;
+        background-size: cover;
+        font-family: 'Source Serif Pro', serif;
+        font-style: italic;
+        font-size: x-large;
+      }
+    
